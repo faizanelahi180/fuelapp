@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "228351685032",
+    "project_id": "fulee-913e5",
+    "storage_bucket": "fulee-913e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228351685032:android:692399e373354d5f132d9d",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228351685032-4schjfofem7cqd9skttv09m4eccevlkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr29aBWJWtSOP_zo3lZ02JESdBn6ksJwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228351685032-4schjfofem7cqd9skttv09m4eccevlkf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

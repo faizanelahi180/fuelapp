@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gas1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/edemail"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edit_text_border"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            android:hint="Enter Email"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edpassword"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="8dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Password"
+            android:padding="10dp"
+            android:textColorHint="@color/white"
+            android:background="@drawable/edit_text_border"
+            />
+
+        <EditText
+            android:id="@+id/repassword"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+
+            android:drawablePadding="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:hint="Enter password Again"
+            android:padding="10dp"
+            android:textColorHint="@color/white"
+            android:background="@drawable/edit_text_border"
+            />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/purple_700"
+            android:text="Register"
+            android:background="@drawable/round_btn"
+
+
+
+            />
+        <Button
+        android:id="@+id/btnlv"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="Log in"
+            android:background="@drawable/round_btn"
+            />
+        <Button
+            android:id="@+id/btnlv1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/purple_700"
+            android:text="ListView"
+            android:background="@drawable/round_btn"
+            />
+
+        <Button
+            android:id="@+id/btnlv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:backgroundTint="@color/purple_700"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_btn1"
+            android:text="About Us" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/l3"
+        android:layout_below="@+id/l2"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv"
+            android:text="Fulee pvt ltd pakistan"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
